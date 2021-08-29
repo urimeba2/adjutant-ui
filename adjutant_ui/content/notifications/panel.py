@@ -20,4 +20,4 @@ import horizon
 class NotificationPanel(horizon.Panel):
     name = _('Admin Notifications')
     slug = 'notifications'
-    policy_rules = (("identity", "admin_required"),)
+    policy_rules = (("identity", "cloud_admin"),)
